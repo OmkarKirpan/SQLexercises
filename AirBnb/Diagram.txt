@@ -1,0 +1,31 @@
+Table users{
+id int[pk]
+name text
+email text
+created_at timestamp
+updated_at timestamp
+}
+
+Enum Role{
+    owner
+    visitor
+}
+
+Table homes{
+    id int[pk]
+    address text
+    price_per_night int
+    created_at timestamp
+    updated_at timestamp
+}
+
+Table users_homes{
+    id int[pk]
+    home_id int [ref: > homes.id]
+    user_id int [ref: > users.id]
+    role Role
+    start timestamp
+    end timestamp
+    created_at timestamp
+    updated_at timestamp
+}
