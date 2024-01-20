@@ -65,7 +65,7 @@ values
     ("345 main st", 40);
 
 insert into
-    users_homes (home_id, user_id, start, end)
+    users_homes (home_id, user_id, role, start, end)
 VALUES
     (
         1,
@@ -76,7 +76,7 @@ VALUES
     );
 
 insert into
-    users_homes (home_id, user_id, start, end)
+    users_homes (home_id, user_id, role, start, end)
 VALUES
     (
         2,
@@ -87,7 +87,7 @@ VALUES
     );
 
 insert into
-    users_homes (home_id, user_id, start, end)
+    users_homes (home_id, user_id, role, start, end)
 VALUES
     (
         3,
@@ -98,7 +98,7 @@ VALUES
     );
 
 insert into
-    users_homes (home_id, user_id, start, end)
+    users_homes (home_id, user_id, role, start, end)
 VALUES
     (
         2,
@@ -109,7 +109,7 @@ VALUES
     );
 
 insert into
-    users_homes (home_id, user_id, start, end)
+    users_homes (home_id, user_id, role, start, end)
 VALUES
     (
         31,
@@ -120,7 +120,7 @@ VALUES
     );
 
 insert into
-    users_homes (home_id, user_id, start, end)
+    users_homes (home_id, user_id, role, start, end)
 VALUES
     (
         3,
